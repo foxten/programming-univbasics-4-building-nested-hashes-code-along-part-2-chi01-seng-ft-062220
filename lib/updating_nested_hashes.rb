@@ -50,11 +50,7 @@ def add_characters
          {name: "Steven", age: "30", attitude: "confused"},
          {name: "Nurse", age: "44", attitude: "worried"}
          ]
-      },
-      :additional_characters =>[
-    
-        {:name => "Apothecary"}
-        ]
+      }
    }
 
    # Write code below that does the following programmatically:
@@ -67,8 +63,6 @@ def add_characters
 
 epic_tragedy[:additional_characters] << {:name => "Prince Escalus"}
 epic_tragedy[:additional_characters] << {:name => "Apothecary"}
-
-
 
    # After your code, the following line will return the altered hash
    epic_tragedy
